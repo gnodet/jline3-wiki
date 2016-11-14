@@ -12,6 +12,7 @@ JLine is distributed under the [BSD License](http://www.opensource.org/licenses/
 * [LineReader](LineReader)
 * [Completion](Completion)
 * [Highlighting and parsing](Highlighting and parsing)
+* [Logging](Logging)
 
 ## Forums
 

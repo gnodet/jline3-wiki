@@ -9,10 +9,9 @@ JLine is distributed under the [BSD License](http://www.opensource.org/licenses/
 ## Documentation
 -------------
 
-* [Using JLine]
+* [Using JLine](https://github.com/jline/jline3/wiki/Using_JLine)
 
 ## Forums
 
 * [jline-users](https://groups.google.com/group/jline-users)
 * [jline-dev](https://groups.google.com/group/jline-dev)
-

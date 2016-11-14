@@ -31,3 +31,6 @@ The builder can be customised to create more suitable line readers:
 | parser        | The [`Parser`](Highlighting and parsing) component to use |
 | expander      | The [`Expander`]() component to use |
 
+## Using LineReader
+
+See [Using line readers](Using line readers).

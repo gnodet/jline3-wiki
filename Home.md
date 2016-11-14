@@ -8,7 +8,10 @@ JLine is distributed under the [BSD License](http://www.opensource.org/licenses/
 
 ## Documentation
 
-* [Using JLine](https://github.com/jline/jline3/wiki/Using_JLine)
+* [Terminals](Terminals)
+* [LineReader](LineReader)
+* [Completion](Completion)
+* [Highlighting and parsing](Highlighting and parsing)
 
 ## Forums
 

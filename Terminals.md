@@ -52,7 +52,7 @@ The builder can also be given the initial size and attributes of the terminal if
                           .build();
 ```
 
-## Signal support<a name="signal_support"></a>
+## <a name="signal_support"></a>Signal support
 
 TODO...
 

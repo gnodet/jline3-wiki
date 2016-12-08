@@ -54,7 +54,19 @@ The builder can also be given the initial size and attributes of the terminal if
 
 ## <a name="signal_support"></a>Signal support
 
-TODO...
+JLine terminals support signals.  Signals can be raised and handled very easily.
+
+System terminals can be built to intercept the native signals and forward them to the default handler.
+
+```
+  Terminal terminal = TerminalBuilder.builder()
+                          .system(true)
+                          .signalHandler(Terminal.SignalHandler.SIG_IGN)
+                          .build();
+
+```
+
+The [LineReader](LineReader) does support signals and handle them accordingly.
 
 ##  Terminal building options
 

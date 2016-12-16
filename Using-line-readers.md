@@ -3,7 +3,7 @@ Line readers are used to read an input line from the console, usually a command 
 ## Simple line reading
 
 For REPL style programs, one can use a simple loop:
-```
+```java
     LineReader reader = LineReaderBuilder.builder().build();
     String prompt = ...;
     while (true) {
@@ -22,7 +22,7 @@ For REPL style programs, one can use a simple loop:
 ## Various calls
 
 There are a few overridden `readLine` methods that takes various parameters, depending on the use cases. They all delegate to the most generic one which is:
-```
+```java
   String readLine(String prompt, String rightPrompt, Character mask, String buffer) throws UserInterruptException, EndOfFileException;
 ```
 

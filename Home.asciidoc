@@ -8,14 +8,14 @@ JLine is distributed under the [BSD License](http://www.opensource.org/licenses/
 
 ## Demos
 
-* [Widgets and keymaps](Demos: Widgets and Keymaps)
+* [Widgets and Keymaps](Demo%20Widgets%20and%20Keymaps)
 
 ## Documentation
 
 * [Terminals](Terminals)
 * [LineReader](LineReader)
 * [Completion](Completion)
-* [Highlighting and parsing](Highlighting and parsing)
+* [Highlighting and parsing](Highlighting%20and%20parsing)
 * [Logging](Logging)
 
 ## Forums

@@ -1,7 +1,7 @@
 The [`LineReader`](https://github.com/jline/jline3/blob/master/src/main/java/org/jline/reader/LineReader.java) interface allows reading lines from a terminal, with full input/line editing.
 
 Instances of `LineReader` can be obtained using the [`LineReaderBuilder`](https://github.com/jline/jline3/blob/master/src/main/java/org/jline/reader/LineReaderBuilder.java) class:
-```
+```java
   Terminal terminal = ...;
   LineReader lineReader = LineReaderBuilder.builder()
                               .terminal(terminal)
@@ -11,7 +11,7 @@ Instances of `LineReader` can be obtained using the [`LineReaderBuilder`](https:
 ## LineReader building options
 
 The builder can be customised to create more suitable line readers:
-```
+```java
    LineReader lineReader = LineReaderBuilder.builder()
                               .terminal(terminal)
                               .completer(new MyCompleter())

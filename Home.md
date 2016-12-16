@@ -6,6 +6,10 @@ JLine 3.x is an evolution of [JLine 2.x](https://github.com/jline/jline2).
 
 JLine is distributed under the [BSD License](http://www.opensource.org/licenses/bsd-license.php), meaning that you are completely free to redistribute, modify, or sell it with almost no restrictions.
 
+## Demos
+
+* [Widgets and keymaps](Demos_Widgets)
+
 ## Documentation
 
 * [Terminals](Terminals)

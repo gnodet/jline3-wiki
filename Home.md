@@ -8,7 +8,7 @@ JLine is distributed under the [BSD License](http://www.opensource.org/licenses/
 
 ## Demos
 
-* [Widgets and keymaps](Demos_Widgets)
+* [Widgets and keymaps](Demos: Widgets and Keymaps)
 
 ## Documentation
 

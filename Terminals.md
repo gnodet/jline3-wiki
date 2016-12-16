@@ -13,11 +13,11 @@ There are two different types of terminals
 There is only a single system terminal for a given JVM, the one that has been used to launch the JVM.  The terminal is the same terminal which is accessible using the [`Console` JDK API](https://docs.oracle.com/javase/8/docs/api/java/io/Console.html).
 
 The easiest way to obtain such a `Terminal` object in JLine is by using the [`TerminalBuilder`](https://github.com/jline/jline3/blob/master/src/main/java/org/jline/terminal/TerminalBuilder.java) class:
-```
+```java
   Terminal terminal = TerminalBuilder.terminal();
 ```
 or
-```
+```java
   Terminal terminal = TerminalBuilder.builder()
                           .system(true)
                           .build();
@@ -31,7 +31,7 @@ The builder can be further customised in particular to handle signals, see [Sign
 Virtual terminals are used when there's no OS terminal to wrap.  A common use case is when setting up some kind of server with SSH or Telnet support.  Each incoming connection will need a virtual terminal.
 
 Those terminals can be created using the following pattern:
-```
+```java
   Terminal terminal = TerminalBuilder.builder()
                           .system(false)
                           .streams(input, output)
@@ -39,7 +39,7 @@ Those terminals can be created using the following pattern:
 ```
 
 The builder can also be given the initial size and attributes of the terminal if they are known:
-```
+```java
   int columns = ...;
   int rows = ...;
   Attributes attributes = new Attributes();
@@ -58,7 +58,7 @@ JLine terminals support signals.  Signals can be raised and handled very easily.
 
 System terminals can be built to intercept the native signals and forward them to the default handler.
 
-```
+```java
   Terminal terminal = TerminalBuilder.builder()
                           .system(true)
                           .signalHandler(Terminal.SignalHandler.SIG_IGN)

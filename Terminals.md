@@ -1,4 +1,4 @@
-JLine provides a terminal abstraction using the [`Terminal`](https://github.com/jline/jline3/blob/master/src/main/java/org/jline/terminal/Terminal.java) interface which provides the following features:
+JLine provides a terminal abstraction using the [`Terminal`](https://github.com/jline/jline3/blob/master/terminal/src/main/java/org/jline/terminal/Terminal.java) interface which provides the following features:
  * Signals support
  * Input stream, output stream, non blocking reader, writer
  * Tty size and parameters
@@ -12,7 +12,7 @@ There are two different types of terminals
 
 There is only a single system terminal for a given JVM, the one that has been used to launch the JVM.  The terminal is the same terminal which is accessible using the [`Console` JDK API](https://docs.oracle.com/javase/8/docs/api/java/io/Console.html).
 
-The easiest way to obtain such a `Terminal` object in JLine is by using the [`TerminalBuilder`](https://github.com/jline/jline3/blob/master/src/main/java/org/jline/terminal/TerminalBuilder.java) class:
+The easiest way to obtain such a `Terminal` object in JLine is by using the [`TerminalBuilder`](https://github.com/jline/jline3/blob/master/terminal/src/main/java/org/jline/terminal/TerminalBuilder.java) class:
 ```java
   Terminal terminal = TerminalBuilder.terminal();
 ```

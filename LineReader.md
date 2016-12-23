@@ -29,7 +29,7 @@ The builder can be customised to create more suitable line readers:
 | history       | The [`History`](History) component to use |
 | highlighter   | The [`Highlighter`](Highlighting and parsing) component to use |
 | parser        | The [`Parser`](Highlighting and parsing) component to use |
-| expander      | The [`Expander`]() component to use |
+| expander      | The [`Expander`](Variable expansion) component to use |
 
 ## Using LineReader
 

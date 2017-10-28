@@ -33,7 +33,7 @@ LineReader reader = LineReaderBuilder().builder()
     .terminal(terminal)
     .completer(treeCompleter)
     .parser(parser)
-    .build()
+    .build();
 
-reader.unsetOpt(LineReader.Option.INSERT_TAB)
+reader.unsetOpt(LineReader.Option.INSERT_TAB);
 ```
